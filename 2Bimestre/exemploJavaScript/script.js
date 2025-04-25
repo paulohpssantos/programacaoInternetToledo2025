@@ -10,6 +10,8 @@ function alterarTexto(){
     //Atribuindo ao elemento titulo o texto que foi digitado
     //no input
     titulo.textContent = textoDigitado;
+
+    let numero = Number(campoTexto.value);
 }
 
 //Atribuindo uma ação de clicar no botão
